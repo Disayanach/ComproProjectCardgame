@@ -8,7 +8,7 @@ using namespace std;
 
 // กำหนดประเภทการ์ดทั้ง 12 ชนิดตามกติกา
 enum class CardType {
-    LightAttack = 1, HeavyAttack, HealSmall, HealBig,
+    LightAttack = 1, HeavyAttack, HealSmall, Heal
     GuardSmall, GuardBig, LifeSteal, Regen,
     Pierce, Reset, Death, GodShield ,Nuke
 };
